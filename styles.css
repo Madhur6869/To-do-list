@@ -1,0 +1,60 @@
+body {
+  padding: 2%;
+  background-color: rgb(62, 62, 146);
+}
+h1 {
+  color: lightblue;
+  font-weight: bold;
+}
+.add-section {
+  display: block;
+  margin: auto;
+}
+.addsectionbutton {
+  display: block;
+  margin: auto;
+}
+.input-section {
+  width: 35%;
+  margin: auto;
+}
+/****************************Card styles***************************/
+.card {
+  background-color: rgb(77, 188, 196);
+  margin: 2%;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+#task {
+  height: 50%;
+  border-radius: 10%;
+}
+.task-text {
+  background-color: lightblue;
+  height: fit-content;
+  font-size: 1.5rem;
+  padding: 1%;
+}
+img {
+  float: right;
+  margin: 1px;
+  cursor: pointer;
+}
+.crossed {
+  text-decoration: line-through;
+}
+.del:hover,
+.completed:hover {
+  background-color: rgb(231, 233, 110);
+}
+
+.remove-section {
+  display: block;
+  margin: auto;
+  margin-bottom: 0px;
+  margin-bottom: 0px;
+}
